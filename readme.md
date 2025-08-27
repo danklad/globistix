@@ -1,3 +1,3 @@
 # Globistix-nextjs-tailwind
 
-image unoptimizaed in next config
+image unoptimizaed in next config and testing
