@@ -13,13 +13,13 @@ export default function Page() {
     return (
         <main>
             <Herobanner
-                bannerimage="/images/about-us/banner/aboutus-banner.png"
+                bannerimage="/images/about-us/banner/aboutus-banner.jpg"
                 heading="About us"
-                desc="We craft <span>innovative digital</span> designs that amplify brand identity and drive meaningful results" />
+                desc="Delivering <span>India’s finest</span> products to global markets with quality, trust, and reliability." />
             <AboutusDetail />
-            <AboutusStats/>
-            <AboutusFullimg/>
-            <Team teamdataNumber="01"/>
+            <AboutusStats />
+            <AboutusFullimg />
+            <Team teamdataNumber="01" />
         </main>
     );
 };

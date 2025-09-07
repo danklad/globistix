@@ -12,7 +12,7 @@ export async function generateMetadata({ params }: Props) {
 
     const blog = getBlogsBySlug(slug, ["title", "detail", "date", "coverImage", "scrolltoread", "description", "galleryImg", "content"]);
 
-    const siteName = process.env.SITE_NAME || "Your Site Name";
+    const siteName = process.env.SITE_NAME || "Globistix";
     const authorName = process.env.AUTHOR_NAME || "Your Author Name";
 
     if (blog) {

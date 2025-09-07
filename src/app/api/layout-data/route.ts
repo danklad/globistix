@@ -15,7 +15,7 @@ const MenuData = [
   },
   {
     id: 3,
-    title: "Projects",
+    title: "Products",
     path: "/projects",
     newTab: false,
   },
@@ -52,13 +52,13 @@ const footerData = {
     info: [
         {
             icon: "/images/footer/email-arrow.svg",
-            link: "info@wrappixel.com",
-            href: "https://www.wrappixel.com/"
+            link: "globistixinternational@gmail.com",
+            href: "mailto:globistixinternational@gmail.com"
         },
         {
             icon: "/images/footer/Location.svg",
-            link: "Zwolle Netherlands",
-            href: "https://maps.app.goo.gl/hpDp81fqzGt5y4bC8"
+            link: "Bangalore India",
+            href: "https://maps.app.goo.gl/qnu7KxA1NKsjCbM3A"
         }
     ],
     links: [

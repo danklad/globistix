@@ -21,13 +21,13 @@ export default function Home() {
       <HeroSection />
       <StatsFacts/>
       <Portfolio/>
-      <Services/>
+      {/* <Services/> */}
       <Aboutus/>
-      <Testimonial/>
+      {/* <Testimonial/> */}
       <Team teamdataNumber="06"/>
-      <Pricing/>
-      <Faq/>
-      <Resources/>
+      {/* <Pricing/>   */}
+      {/* <Faq/> */}
+      {/* <Resources/> */}
       <Contact contactdataNumber="10"/>
     </>
   );
