@@ -12,7 +12,7 @@ type Props = {
 export async function generateMetadata({ params }: Props) {
     const { slug } = await params;
 
-    const project = getProjectsBySlug(slug, ["title", "ScopeOfWork", "industry", "raised", "website", "description", "coverImage", "gallery", "content"]);
+    const project = getProjectsBySlug(slug, ["title", "ScopeOfWork", "industry", "website", "description", "coverImage", "gallery", "content"]);
 
     const siteName = process.env.SITE_NAME || "Your Site Name";
     const authorName = process.env.AUTHOR_NAME || "Your Author Name";
@@ -59,7 +59,7 @@ export async function generateMetadata({ params }: Props) {
 export default async function Post({ params }: Props) {
     const { slug } = await params;
     const project = getProjectsBySlug(slug, [
-        "title", "ScopeOfWork", "industry", "raised", "website", "description", "coverImage", "gallery", "content"
+        "title", "ScopeOfWork", "industry", "website", "description", "coverImage", "gallery", "content"
     ]);
 
     const content = await markdownToHtml(project.content || "");
@@ -89,18 +89,18 @@ export default async function Post({ params }: Props) {
                                         <span className="text-base text-secondary/70 dark:text-white/70">Scope of work</span>
                                         <p className="font-medium">{project.ScopeOfWork.join(", ")}</p>
                                     </div>
-                                    <div className="flex flex-col gap-2 border-b md:border-b-0 md:border-r border-secondary/12 dark:border-white/12 pb-5 md:pr-5 lg:pr-10">
+                                    <div className="flex flex-col gap-2  dark:border-white/12 pb-5 md:pr-5 lg:pr-10">
                                         <span className="text-base text-secondary/70 dark:text-white/70">Industry</span>
                                         <p className="font-medium">{project.industry}</p>
                                     </div>
-                                    <div className="flex flex-col gap-2 border-b md:border-b-0 md:border-r border-secondary/12 dark:border-white/12 pb-5 md:pr-5 lg:pr-10">
+                                    {/* <div className="flex flex-col gap-2 border-b md:border-b-0 md:border-r border-secondary/12 dark:border-white/12 pb-5 md:pr-5 lg:pr-10">
                                         <span className="text-base text-secondary/70 dark:text-white/70">Raised</span>
                                         <p className="font-medium">{project.raised}</p>
                                     </div>
                                     <div className="flex flex-col gap-2">
                                         <span className="text-base text-secondary/70 dark:text-white/70">Website</span>
                                         <p className="font-medium">{project.website}</p>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                             <div>
@@ -116,7 +116,7 @@ export default async function Post({ params }: Props) {
                                 </div>
                             </div>
                             <div className="grid gap-8">
-                                {project.gallery.map((image: string, index: number) => (
+                                {project.gallery?.map((image: string, index: number) => (
                                     index === 0 ? (
                                         <div key={index} className="col-span-2 ">
                                             <Image src={image} alt="image" width={1600} height={750} className="w-full h-full object-cover" />

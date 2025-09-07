@@ -3,41 +3,41 @@ import { NextResponse } from "next/server";
 const avatarList = [
     {
         image: "/images/avatar/avatar_1.jpg",
-        title: "Sarah Johnson"
+        title: "Rajesh Kumar"
     },
     {
         image: "/images/avatar/avatar_2.jpg",
-        title: "Olivia Miller"
+        title: "Anita Sharma"
     },
     {
         image: "/images/avatar/avatar_3.jpg",
-        title: "Sophia Roberts"
+        title: "Mohammed Ali"
     },
     {
         image: "/images/avatar/avatar_4.jpg",
-        title: "Isabella Clark"
+        title: "Priya Nair"
     },
 ];
 
 const statsFactData = {
     number: '01',
     name: "Stats & facts",
-    heading: "High quality web design solutions you can trust.",
-    description: "When selecting a web design agency, it's essential to consider its reputation, experience, and the specific needs of your project.",
+    heading: "High-quality export solutions you can trust.",
+    description: "At Globistix, we deliver Indian products worldwide with reliability, transparency, and trust.",
     scoreData: [
         {
             number: 40,
-            numberValue: 'K',
-            scoreDescp: "People who have launched their websites"
+            numberValue: '+',
+            scoreDescp: "Countries we export to"
         },
         {
             number: 238,
-            scoreDescp: "Experienced professionals ready to assist"
+            scoreDescp: "Trusted business clients worldwide"
         },
         {
             number: 3,
             numberValue: 'M',
-            scoreDescp: "Support through messages and live consultations"
+            scoreDescp: "Units shipped successfully"
         },
     ]
 };
@@ -46,31 +46,31 @@ const servicesData = {
     number: '03',
     name: "Services",
     heading: "What we do",
-    description: "A glimpse into our creativity—exploring innovative designs, successful collaborations, and transformative digital experiences.",
+    description: "We specialize in sourcing, packaging, and exporting premium-quality Indian products to international markets.",
     data: [
         {
             id: 1,
             image: "/images/home/services/services_1.png",
-            heading: "Brand identity",
-            descp: "When selecting a web design agency, it's essential to consider its reputation, experience, and the specific needs of your project."
+            heading: "Product Sourcing",
+            descp: "We partner with trusted suppliers across India to source authentic, high-quality goods."
         },
         {
             id: 2,
             image: "/images/home/services/services_2.png",
-            heading: "Web development",
-            descp: "When selecting a web design agency, it's essential to consider its reputation, experience, and the specific needs of your project."
+            heading: "Quality Assurance",
+            descp: "All products go through strict checks to meet international standards before shipping."
         },
         {
             id: 3,
             image: "/images/home/services/services_3.png",
-            heading: "Content creation",
-            descp: "When selecting a web design agency, it's essential to consider its reputation, experience, and the specific needs of your project."
+            heading: "Global Shipping",
+            descp: "We manage logistics, customs clearance, and safe delivery worldwide."
         },
         {
             id: 4,
             image: "/images/home/services/services_4.png",
-            heading: "Motion & 3d modeling",
-            descp: "When selecting a web design agency, it's essential to consider its reputation, experience, and the specific needs of your project."
+            heading: "Custom Export Solutions",
+            descp: "Tailored export strategies to fit your specific business and market requirements."
         },
     ]
 };
@@ -78,21 +78,21 @@ const servicesData = {
 const testimonialData = {
     data_1: {
         preTitle: "Hear from them",
-        title: "Our website redesign was flawless. They understood our vision perfectly!",
+        title: "Globistix ensured smooth delivery and great product quality. Truly reliable!",
         author: "Albert Flores",
-        company: "MasterCard"
+        company: "Importer, USA"
     },
     data_2: {
         preTitle: "Hear from them",
-        title: "From concept to execution, they delivered outstanding results. Highly recommend their expertise!",
+        title: "They managed sourcing and logistics effortlessly. Highly recommended.",
         author: "Robert Fox",
-        company: "Mitsubishi"
+        company: "Distributor, Europe"
     },
     data_3: {
         preTitle: "Hear from them",
-        title: "Super smooth process with incredible results. highly recommend!",
+        title: "Professional, transparent, and trustworthy export partner.",
         author: "Jenny Wilson",
-        company: "Pizza Hut"
+        company: "Retailer, UAE"
     },
 };
 
@@ -100,79 +100,23 @@ const teamData = {
     number: '06',
     data: [
         {
-            image: "/images/home/team/team-img-1.png",
-            name: "Martha Finley",
-            position: "Creative Director",
-            socialLinks: [
-                {
-                    icon: "/images/socialIcon/twitter.svg",
-                    link: "https://twitter.com"
-                },
-                {
-                    icon: "/images/socialIcon/Be.svg",
-                    link: "https://www.behance.net/"
-                },
-                {
-                    icon: "/images/socialIcon/linkedin.svg",
-                    link: "https://linkedin.com"
-                }
-            ]
-        },
-        {
             image: "/images/home/team/team-img-2.png",
-            name: "Floyd Miles",
-            position: "Marketing Strategist",
+            name: "T Sai Kumar",
+            position: "Co-Founder & Head of Global Operations",
             socialLinks: [
-                {
-                    icon: "/images/socialIcon/twitter.svg",
-                    link: "https://twitter.com"
-                },
-                {
-                    icon: "/images/socialIcon/Be.svg",
-                    link: "https://www.behance.net/"
-                },
-                {
-                    icon: "/images/socialIcon/linkedin.svg",
-                    link: "https://linkedin.com"
-                }
+                { icon: "/images/socialIcon/twitter.svg", link: "https://twitter.com" },
+                { icon: "/images/socialIcon/Be.svg", link: "https://www.behance.net/" },
+                { icon: "/images/socialIcon/linkedin.svg", link: "https://linkedin.com" }
             ]
         },
         {
-            image: "/images/home/team/team-img-3.png",
-            name: "Glenna Snyder",
-            position: "Lead Designer",
+            image: "/images/home/team/team-img-1.png",
+            name: "Nune Surya",
+            position: "Co-Founder & Export Strategy Lead",
             socialLinks: [
-                {
-                    icon: "/images/socialIcon/twitter.svg",
-                    link: "https://twitter.com"
-                },
-                {
-                    icon: "/images/socialIcon/Be.svg",
-                    link: "https://www.behance.net/"
-                },
-                {
-                    icon: "/images/socialIcon/linkedin.svg",
-                    link: "https://linkedin.com"
-                }
-            ]
-        },
-        {
-            image: "/images/home/team/team-img-4.png",
-            name: "Albert Flores",
-            position: "UX/UI Developer",
-            socialLinks: [
-                {
-                    icon: "/images/socialIcon/twitter.svg",
-                    link: "https://twitter.com"
-                },
-                {
-                    icon: "/images/socialIcon/Be.svg",
-                    link: "https://www.behance.net/"
-                },
-                {
-                    icon: "/images/socialIcon/linkedin.svg",
-                    link: "https://linkedin.com"
-                }
+                { icon: "/images/socialIcon/twitter.svg", link: "https://twitter.com" },
+                { icon: "/images/socialIcon/Be.svg", link: "https://www.behance.net/" },
+                { icon: "/images/socialIcon/linkedin.svg", link: "https://linkedin.com" }
             ]
         },
     ]
@@ -181,24 +125,23 @@ const teamData = {
 const pricingData = {
     data: [
         {
-            planName: "Launch",
-            planPrice: "$699",
-            planDescp: "Ideal for startups and small businesses taking their first steps online.",
-            planIncludes: ["Competitive research & insights","Wireframing and prototyping","Basic tracking setup (Google Analytics, etc.)","Standard contact form integration"]
+            planName: "Starter",
+            planPrice: "Custom Quote",
+            planDescp: "Best for small businesses testing international trade.",
+            planIncludes: ["Flexible order quantities","Trusted product sourcing","Export documentation support","Standard packaging & shipping"]
         },
         {
-            planName: "Scale",
+            planName: "Growth",
             tag: "Most popular",
-            planPrice: "$1,699",
-            cancelPrice: "$2,199",
-            planDescp: "Perfect for growing brands needing more customization and flexibility.",
-            planIncludes: ["Everything in the Launch Plan","Custom design for up to 10 pages","Seamless social media integration","SEO enhancements for key pages"]
+            planPrice: "Custom Quote",
+            planDescp: "Ideal for mid-sized companies expanding globally.",
+            planIncludes: ["Everything in Starter Plan","Bulk order support","Dedicated logistics management","Custom packaging & labeling"]
         },
         {
-            planName: "Elevate",
-            planPrice: "$3,499",
-            planDescp: "Best suited for established businesses wanting a fully tailored experience.",
-            planIncludes: ["Everything in the Scale Plan","E-commerce functionality (if needed)","Branded email template design","Priority support for six months after launch"]
+            planName: "Enterprise",
+            planPrice: "Custom Quote",
+            planDescp: "Tailored export solutions for large-scale businesses.",
+            planIncludes: ["Everything in Growth Plan","Priority customs clearance","Dedicated account manager","Advanced quality testing & compliance"]
         },
     ],
     partnerLogo: [
@@ -213,63 +156,61 @@ const pricingData = {
 const faqData = {
     data: [
         {
-            faq_que: "What services does your agency offer?",
-            faq_ans: 'Yes, we provide post-launch support to ensure smooth implementation and offer ongoing maintenance packages for clients needing regular updates or technical assistance.'
+            faq_que: "What products do you export?",
+            faq_ans: 'We specialize in Makhana, Aloe Vera, Egg Powder, Spices, and other Indian products. We can also source custom items based on client requirements.'
         },
         {
-            faq_que: "How long does a typical project take?",
-            faq_ans: 'Yes, we provide post-launch support to ensure smooth implementation and offer ongoing maintenance packages for clients needing regular updates or technical assistance.'
+            faq_que: "Which countries do you ship to?",
+            faq_ans: 'Globistix exports to over 40+ countries, including the USA, Europe, Middle East, and Asia-Pacific.'
         },
         {
-            faq_que: "Do you offer custom designs, or do you use templates?",
-            faq_ans: 'Yes, we provide post-launch support to ensure smooth implementation and offer ongoing maintenance packages for clients needing regular updates or technical assistance.'
+            faq_que: "What’s the minimum order quantity?",
+            faq_ans: 'It depends on the product. We offer flexible terms for both small and bulk orders.'
         },
         {
-            faq_que: "What’s the cost of a project?",
-            faq_ans: 'Yes, we provide post-launch support to ensure smooth implementation and offer ongoing maintenance packages for clients needing regular updates or technical assistance.'
+            faq_que: "How do you ensure product quality?",
+            faq_ans: 'All items undergo strict quality checks and international standard packaging before shipping.'
         },
         {
-            faq_que: "Do you provide ongoing support after project completion?",
-            faq_ans: 'Yes, we provide post-launch support to ensure smooth implementation and offer ongoing maintenance packages for clients needing regular updates or technical assistance.'
+            faq_que: "Do you provide shipping and documentation support?",
+            faq_ans: 'Yes, we handle logistics, customs clearance, and complete export documentation for hassle-free delivery.'
         }
     ]
 };
+
 const contactData = {
     keypoint:["Always-On Customer Support","Service Across the Globe"],
     managerProfile:{
         image:"/images/avatar/avatar_1.jpg",
         name:"Courtney Henry",
-        position:"Onboarding & Success Manager"
+        position:"Client Relations Manager"
     }
 }
 
 const aboutusStats = [
     {
-        number: 45,
+        number: 40,
         postfix:"+",
-        title: 'Presence in global markets',
-        descp: "Expanding reach across international regions with localized expertise and worldwide impact."
+        title: 'Countries Served',
+        descp: "Delivering high-quality Indian products across international markets."
     },
     {
-        number: 15,
-        prefix: "$",
-        postfix: "M",
-        title: 'In strategic investments',
-        descp: "Driving growth with curated partnerships and high-performing, audience-driven initiatives."
+        number: 3,
+        postfix: "M+",
+        title: 'Units Delivered',
+        descp: "Trusted partner for millions of product shipments worldwide."
     },
     {
-        number: 158,
+        number: 238,
         postfix: "+",
-        title: 'Trusted brand collaborations',
-        descp: "Shaping industry conversations through innovation, creativity, and lasting influence."
+        title: 'Business Clients',
+        descp: "Building long-term partnerships with importers and distributors."
     },
 ]
 
 const servicesSliderData = [
-    "Branding", "Web development", "Agency","Content creation","SaaS","Motion & 3d modeling","Photography"
+    "Product Sourcing", "Quality Assurance", "Logistics","Custom Packaging","Export Compliance","Bulk Orders","End-to-End Support"
 ]
-
-
 
 export const GET = async () => {
     return NextResponse.json({
