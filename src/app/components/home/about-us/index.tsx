@@ -88,8 +88,8 @@ function Aboutus() {
                             </div>
                             <div className="bg-secondary dark:bg-lightgray/10 p-5 2xl:p-7 flex flex-col justify-between gap-8">
                                 <div>
-                                    <h2 className="text-white">2+</h2>
-                                    <p className="text-base text-white/70">Successful shipments completed</p>
+                                    <h2 className="text-white">95%</h2>
+                                    <p className="text-base text-white/70">Quality products</p>
                                 </div>
                                 <div>
                                     <ul className='avatar flex flex-row items-center'>
@@ -106,14 +106,14 @@ function Aboutus() {
                         {/* Global Brands Served */}
                         <div className="relative overflow-hidden p-5 2xl:p-7 border border-secondary/12 dark:border-white/30 flex flex-col justify-between gap-8 md:gap-0">
                             <div className="relative z-10">
-                                <h2>50+</h2>
-                                <p>Countries served worldwide</p>
+                                <h2>95%</h2>
+                                <p>Best services</p>
                             </div>
                             <div className="flex flex-col gap-4 relative z-10">
                                 <Image src={"/images/logo/BlackLogo.png"} alt="Logo Image" height={44} width={160} className="dark:hidden" />
-                                <Image src={"/images/logo/WhiteLogo.svg"} alt="Logo Image" height={44} width={160} className="hidden dark:block" />
+                                <Image src={"/images/logo/WhiteLogo.png"} alt="Logo Image" height={44} width={160} className="hidden dark:block" />
                                 <p>
-                                    Our global reach allows us to connect Indian producers with international buyers,
+                                    Our global reach allows us to connect Indian suppliers with international buyers,
                                     ensuring reliable supply chains and long-term partnerships.
                                 </p>
                             </div>

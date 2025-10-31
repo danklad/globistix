@@ -9,15 +9,15 @@
   --breakpoint-Xxl: 1440px; /*1440 px*/
   --breakpoint-2xl: 1536px;
   --breakpoint-xsm: 500px;
-
-  /* color */
-  --color-primary: #D4F1F4;
-  --color-secondary: #1F2A2E;
-  --color-lightgray: #F4F8FA;
-  --color-overlay: #000A0B99;
-  --color-darkblack: #273338;
-  --color-twilliteblack: #181f22;
-  --color-gray: #365564;
+  
+  /* color - slightly darker variants */
+  --color-primary: #40E0D0;
+  --color-secondary: #182225;
+  --color-lightgray: #B7C4C9;
+  --color-overlay: #00060799;
+  --color-darkblack: #212B2F;
+  --color-twilliteblack: #141A1C;
+  --color-gray: #2F4756;
 
   /* padding */
   --spacing-35: 35rem; /*550px*/

@@ -147,8 +147,8 @@ const Header = () => {
                                         )}
                                     </div>
                                     <div>
-                                        <Link href="tel:+1-212-456-7890" className="text-secondary/60 dark:text-white/60 hover:text-secondary dark:hover:text-white">+1-212-456-7890</Link>
-                                        <Link href="mailto:globistixinternational@gmail.com"><h4>globistixinternational@gmail.com</h4></Link>
+                                        <Link href="tel:+91 9652165616" className="text-secondary/60 dark:text-white/60 hover:text-secondary dark:hover:text-white">+91 9652165616</Link>
+                                        <Link href="mailto:info@globistix.in"><h4>info@globistix.in</h4></Link>
                                     </div>
                                 </div>
                             }

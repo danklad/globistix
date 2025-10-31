@@ -53,9 +53,9 @@ function StatsFacts() {
                                     return (
                                         <div ref={ref} key={index} className="flex flex-col gap-5 pt-4 md:pt-11 border-t border-secondary/12 dark:border-white/12">
                                             <h3 className="text-5xl md:text-6xl Xxl:text-7xl font-bold">
-                                                {inView ? <CountUp start={0} end={value.number} duration={3} /> : "0"}
-                                                {value.numberValue && <span>{value.numberValue}</span>}
-                                                <span>+</span>
+                                                {/* {inView ? <CountUp start={0} end={value.number} duration={3} /> : "0"} */}
+                                                {value.title && <span>{value.title}</span>}
+                                                {/* <span>+</span> */}
                                             </h3>
                                             <p className="text-base text-secondary/70 dark:text-white/70">{value.scoreDescp}</p>
                                         </div>
