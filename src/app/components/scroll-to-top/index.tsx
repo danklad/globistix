@@ -28,8 +28,9 @@ export default function ScrollToTop() {
   return (
     <div className="fixed bottom-8 right-8 z-[999]">
       <div className="flex items-center gap-2.5">
-        <Link href={"/"} target="_blank" className="hidden lg:block text-sm bg-primary hover:bg-primary/70 text-secondary font-semibold px-4 py-3.5 leading-none rounded-lg duration-300 text-nowrap">
-          Contact us
+        <Link  href="//api.whatsapp.com/send?phone=+917019070116&text=Hi!"
+          target="_blank" className="hidden lg:block text-sm bg-primary hover:bg-primary/70 text-secondary font-semibold px-4 py-3.5 leading-none rounded-lg duration-300 text-nowrap">
+          Message us
         </Link>
         {isVisible && (
           <div

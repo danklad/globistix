@@ -10,7 +10,7 @@ export default function Page() {
         <main>
             <Herobanner
                 bannerimage="/images/blog/banner/blog_banner.png"
-                heading="Blog"
+                heading="Certificates"
                 desc="Excited to <span>begin something amazing?</span> Get in touch—we'd love to connect with you!" />    
                 <BlogList/>
         </main>

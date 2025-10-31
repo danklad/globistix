@@ -57,7 +57,7 @@ const ForgotPassword = () => {
                         Forgot Your Password?
                       </h4>
                       <p className="text-secondary/60 dark:text-white/60">
-                        Please check your inbox for the new password.
+                        Please check your inbox for the new password
                       </p>
                     </div>
                     <Backbutton />

@@ -21,8 +21,8 @@ const MenuData = [
   },
   {
     id: 4,
-    title: "Blog",
-    path: "/blog",
+    title: "Certificates",
+    path: "/certificates",
     newTab: false,
   },
   {
@@ -48,12 +48,12 @@ const MenuData = [
 
 const footerData = {
     name: "Globistix",
-    tagline: "Build something together?",
+    tagline: "Connecting Indian Produce with Global Demand.",
     info: [
         {
             icon: "/images/footer/email-arrow.svg",
-            link: "globistixinternational@gmail.com",
-            href: "mailto:globistixinternational@gmail.com"
+            link: "info@globistix.in",
+            href: "mailto:info@globistix.in"
         },
         {
             icon: "/images/footer/Location.svg",
@@ -71,9 +71,9 @@ const footerData = {
         { name: "Error 404", href: "/not-found" }
     ],
     socialLinks: [
-        { name: "Facebook", href: "https://www.facebook.com/" },
-        { name: "Instagram", href: "https://www.instagram.com/" },
-        { name: "Twitter", href: "https://x.com/" }
+        { name: "Instagram", href: "https://www.instagram.com/globistix?igsh=aWM0em5vdnU2ODdr&utm_source=qr" },
+        { name: "Youtube", href: "https://youtube.com/@globistix?si=8RijB3ucj0fkEpib" },
+        { name: "Facebook", href: "https://www.facebook.com/share/17KA6oG19j/?mibextid=wwXIfr" },
     ],
     copyright: "© Globistix copyright 2025"
 };

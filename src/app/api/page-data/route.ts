@@ -22,22 +22,25 @@ const avatarList = [
 const statsFactData = {
     number: '01',
     name: "Stats & facts",
-    heading: "High-quality export solutions you can trust.",
+    heading: "Exporting All Over the World",
     description: "At Globistix, we deliver Indian products worldwide with reliability, transparency, and trust.",
     scoreData: [
         {
             number: 40,
+            title: "Trusted Suppliers",
             numberValue: '+',
-            scoreDescp: "Countries we export to"
+            scoreDescp: "We ensure the highest quality by sourcing directly from farmers and certified suppliers worldwide."
         },
         {
             number: 238,
-            scoreDescp: "Trusted business clients worldwide"
+            title: "Global Shipping",
+            scoreDescp: "Our expert logistics network guarantees timely and secure delivery to any part of the world."
         },
         {
             number: 3,
+            title: "Dedicated Support",
             numberValue: 'M',
-            scoreDescp: "Units shipped successfully"
+            scoreDescp: "24/7 customer support to handle all your queries and requirements promptly."
         },
     ]
 };
@@ -102,7 +105,7 @@ const teamData = {
         {
             image: "/images/home/team/team-img-2.png",
             name: "T Sai Kumar",
-            position: "Co-Founder & Head of Global Operations",
+            position: "Director & Head of Global Operations",
             socialLinks: [
                 { icon: "/images/socialIcon/twitter.svg", link: "https://twitter.com" },
                 { icon: "/images/socialIcon/Be.svg", link: "https://www.behance.net/" },
@@ -112,7 +115,7 @@ const teamData = {
         {
             image: "/images/home/team/team-img-1.png",
             name: "Nune Surya",
-            position: "Co-Founder & Export Strategy Lead",
+            position: "Director & Export Strategy Lead",
             socialLinks: [
                 { icon: "/images/socialIcon/twitter.svg", link: "https://twitter.com" },
                 { icon: "/images/socialIcon/Be.svg", link: "https://www.behance.net/" },

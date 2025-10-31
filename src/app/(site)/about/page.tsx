@@ -17,7 +17,7 @@ export default function Page() {
                 heading="About us"
                 desc="Delivering <span>India’s finest</span> products to global markets with quality, trust, and reliability." />
             <AboutusDetail />
-            <AboutusStats />
+            {/* <AboutusStats /> */}
             <AboutusFullimg />
             <Team teamdataNumber="01" />
         </main>
