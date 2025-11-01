@@ -1,5 +1,7 @@
 import { NextResponse } from "next/server";
 
+const isDev = process.env.NODE_ENV === "development";
+
 const MenuData = [
   {
     id: 1,
@@ -27,22 +29,20 @@ const MenuData = [
   },
   {
     id: 5,
-    title: "Services",
-    path: "/#services",
-    newTab: false,
-  },
-  {
-    id: 6,
     title: "Contact",
     path: "/contact",
     newTab: false,
   },
-  {
-    id: 7,
-    title: "Docs",
-    path: "/documentation",
-    newTab: false,
-  }
+  ...(isDev
+    ? [
+        {
+          id: 6,
+          title: "Docs",
+          path: "/documentation",
+          newTab: false,
+        },
+      ]
+    : []),
 ];
 
 

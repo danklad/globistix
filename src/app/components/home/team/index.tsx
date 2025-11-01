@@ -64,8 +64,10 @@ const Team = (props: { teamdataNumber: string }) => {
                         width={390}
                         height={470}
                         style={{ width: "100%" }}
+                        className="w-full h-[490px] object-cover"
                       />
-                      <div className="absolute hidden bg-secondary/40 bottom-0 left-0 w-full h-full group-hover:flex items-end justify-end p-8">
+                      {/* The below part is for social icons on hover, currently commented out */}
+                      {/* <div className="absolute hidden bg-secondary/40 bottom-0 left-0 w-full h-full group-hover:flex items-end justify-end p-8">
                         <div className="flex gap-3">
                           {data?.socialLinks?.map(
                             (socialdata: any, index: any) => {
@@ -86,7 +88,7 @@ const Team = (props: { teamdataNumber: string }) => {
                             }
                           )}
                         </div>
-                      </div>
+                      </div> */}
                     </div>
                     <div>
                       <h4>{data?.name}</h4>

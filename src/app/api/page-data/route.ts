@@ -103,8 +103,8 @@ const teamData = {
     number: '06',
     data: [
         {
-            image: "/images/home/team/team-img-2.png",
-            name: "T Sai Kumar",
+            image: "/images/home/team/sanju.png",
+            name: "Sai Kumar",
             position: "Director & Head of Global Operations",
             socialLinks: [
                 { icon: "/images/socialIcon/twitter.svg", link: "https://twitter.com" },
@@ -113,7 +113,7 @@ const teamData = {
             ]
         },
         {
-            image: "/images/home/team/team-img-1.png",
+            image: "/images/home/team/surya.png",
             name: "Nune Surya",
             position: "Director & Export Strategy Lead",
             socialLinks: [
