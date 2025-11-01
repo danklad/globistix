@@ -122,13 +122,13 @@ const Header = () => {
                                         </div>
                                     </div>
                                     <div>
-                                        <ul className="flex flex-col gap-2 pb-4">
+                                        <ul className="flex flex-col gap-2 pb-0">
                                             {menuData?.map((menuItem:any, index:any) =>
                                                 <MenuList key={index} item={menuItem} closeMenu={() => setMenuOpen(false)} />
                                             )}
                                         </ul>
 
-                                        {user?.user || session?.user ? (
+                                        {/* {user?.user || session?.user ? (
                                             <div className="flex flex-col gap-2">
                                                 <button onClick={() => handleSignOut()} className="flex justify-center items-center cursor-pointer gap-2 text-secondary hover:text-white dark:border dark:border-primary dark:hover:text-white bg-primary dark:hover:bg-transparent dark:hover:border dark:hover:border-white hover:bg-secondary text-xl font-bold rounded-full py-2.5 px-4.5 transition-all duration-300 ease-in-out">
                                                     Sign Out
@@ -144,7 +144,7 @@ const Header = () => {
                                                     Sign Up
                                                 </Link>
                                             </div>
-                                        )}
+                                        )} */}
                                     </div>
                                     <div>
                                         <Link href="tel:+91 9652165616" className="text-secondary/60 dark:text-white/60 hover:text-secondary dark:hover:text-white">+91 9652165616</Link>
