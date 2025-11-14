@@ -64,11 +64,11 @@ const footerData = {
     links: [
         { name: "Home", href: "/" },
         { name: "About", href: "/about" },
-        { name: "Services", href: "/#services" },
-        { name: "Work", href: "/projects" },
-        { name: "Terms", href: "/terms-and-conditions" },
-        { name: "Privacy Policy", href: "/privacy-policy" },
-        { name: "Error 404", href: "/not-found" }
+        { name: "Products", href: "/projects" },
+        { name: "Certificates", href: "/certificates" },
+        // { name: "Terms", href: "/terms-and-conditions" },
+        // { name: "Privacy Policy", href: "/privacy-policy" },
+        // { name: "Error 404", href: "/not-found" }
     ],
     socialLinks: [
         { name: "Instagram", href: "https://www.instagram.com/globistix?igsh=aWM0em5vdnU2ODdr&utm_source=qr" },

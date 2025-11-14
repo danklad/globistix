@@ -14,8 +14,8 @@ export async function generateMetadata({ params }: Props) {
 
     const project = getProjectsBySlug(slug, ["title", "ScopeOfWork", "industry", "website", "description", "coverImage", "gallery", "content"]);
 
-    const siteName = process.env.SITE_NAME || "Your Site Name";
-    const authorName = process.env.AUTHOR_NAME || "Your Author Name";
+    const siteName = process.env.SITE_NAME || "Globistix";
+    const authorName = process.env.AUTHOR_NAME || "Surya Nune";
 
     if (project) {
         const metadata = {
