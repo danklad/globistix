@@ -83,8 +83,15 @@ function Aboutus() {
 
                         {/* Project / Reach */}
                         <div className="flex flex-col gap-5 2xl:gap-7">
-                            <div className="w-full h-full">
-                                <Image src={"/images/home/services/services_2.png"} alt="Image" width={340} height={215} style={{ width: '100%', height: '100%' }} />
+                            <div className="relative w-full h-64 md:h-full">
+                                <Image
+                                    src="https://images.pexels.com/photos/2881632/pexels-photo-2881632.jpeg"
+                                    alt="Quality products illustrative image"
+                                    fill
+                                    sizes="(max-width: 768px) 100vw, 33vw"
+                                    style={{ objectFit: 'cover' }}
+                                    priority
+                                />
                             </div>
                             <div className="bg-secondary dark:bg-lightgray/10 p-5 2xl:p-7 flex flex-col justify-between gap-8">
                                 <div>

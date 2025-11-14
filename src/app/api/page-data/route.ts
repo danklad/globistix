@@ -160,7 +160,7 @@ const faqData = {
     data: [
         {
             faq_que: "What products do you export?",
-            faq_ans: 'We specialize in Makhana, Aloe Vera, Egg Powder, Spices, and other Indian products. We can also source custom items based on client requirements.'
+            faq_ans: 'We focus on exporting premium Coffee and Red Chilli. We can discuss specific varieties based on client requirements.'
         },
         {
             faq_que: "Which countries do you ship to?",
@@ -168,11 +168,11 @@ const faqData = {
         },
         {
             faq_que: "What’s the minimum order quantity?",
-            faq_ans: 'It depends on the product. We offer flexible terms for both small and bulk orders.'
+            faq_ans: 'Minimums vary by product: Coffee and Red Chilli orders are flexible and can scale from trial to bulk quantities.'
         },
         {
             faq_que: "How do you ensure product quality?",
-            faq_ans: 'All items undergo strict quality checks and international standard packaging before shipping.'
+            faq_ans: 'All products shipments undergo strict quality checks and compliant packaging before export.'
         },
         {
             faq_que: "Do you provide shipping and documentation support?",
