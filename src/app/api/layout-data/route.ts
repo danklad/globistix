@@ -71,11 +71,13 @@ const footerData = {
         // { name: "Error 404", href: "/not-found" }
     ],
     socialLinks: [
-        { name: "Instagram", href: "https://www.instagram.com/globistix?igsh=aWM0em5vdnU2ODdr&utm_source=qr" },
-        { name: "Youtube", href: "https://youtube.com/@globistix?si=8RijB3ucj0fkEpib" },
-        { name: "Facebook", href: "https://www.facebook.com/share/17KA6oG19j/?mibextid=wwXIfr" },
+        { name: "Instagram", href: "https://www.instagram.com/globistix?igsh=aWM0em5vdnU2ODdr&utm_source=qr", icon: "skill-icons:instagram" },
+        { name: "Youtube", href: "https://youtube.com/@globistix?si=8RijB3ucj0fkEpib", icon: "logos:youtube-icon" },
+        { name: "Facebook", href: "https://www.facebook.com/share/17KA6oG19j/?mibextid=wwXIfr", icon:'devicon:facebook' },
+        { name: "LinkedIn", href: "https://www.linkedin.com/company/globistix-international/", icon: "skill-icons:linkedin" },
+
     ],
-    copyright: "© Globistix copyright 2025"
+    copyright: "© Globistix copyright 2026"
 };
 
 export const GET = async () => {

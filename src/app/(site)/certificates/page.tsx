@@ -9,10 +9,11 @@ export default function Page() {
     return (
         <main>
             <Herobanner
-                bannerimage="/images/blog/banner/blog_banner.png"
-                heading="Certificates"
-                desc="Excited to <span>begin something amazing?</span> Get in touch—we'd love to connect with you!" />    
-                <BlogList/>
+            bannerimage="/images/blog/banner/blog_banner.jpg"
+            heading="Our Certifications"
+            desc="Discover our export certifications ensuring quality and compliance."
+            />
+            <BlogList />
         </main>
     );
 };

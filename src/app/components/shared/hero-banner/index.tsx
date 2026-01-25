@@ -15,7 +15,7 @@ const Herobanner = ({
   const splitDesc = desc ? desc.split(/<\/?span>/) : null;
 
   return (
-    <section className="relative flex items-end text-white bg-black h-screen max-h-650px">
+    <section className="relative flex items-end text-white bg-black h-screen max-h-650px overflow-hidden">
       <Image
         className="absolute top-0 left-0 w-full h-full object-cover"
         alt="Image"
@@ -26,10 +26,10 @@ const Herobanner = ({
       <div className="absolute top-0 left-0 w-full h-full bg-overlay"></div>
 
       {/* Content */}
-      <div className="relative z-10 container text-left">
+      <div className="relative z-10 container text-left px-4 md:px-6">
         <div className="flex flex-col gap-6  pb-16 xl:pb-20">
           <div className="flex items-start gap-2 md:gap-6">
-            <div className="w-11 h-11 flex-shrink-0">
+            <div className="w-11 h-11 shrink-0">
               <Image
                 src={"/images/Icon/primary-leaf.svg"}
                 alt="icon"
@@ -46,11 +46,11 @@ const Herobanner = ({
               </p>
             ) : null}
           </div>
-          <div className="flex flex-row items-end lg:items-baseline gap-4">
-            <h1 className={`${headingClass ? headingClass : "large-heading"}`}>
+          <div className="flex flex-row flex-wrap items-end lg:items-baseline gap-4">
+            <h1 className={`${headingClass ? headingClass : "large-heading"} break-words`}>
               {heading}
             </h1>
-            <div className="bg-primary rounded-full  pl-8 p-1.5">
+            <div className="bg-primary rounded-full pl-4 md:pl-8 p-1.5 shrink-0">
               <div className="bg-white p-3 md:p-5 rounded-full">
                 <svg
                   width="16"

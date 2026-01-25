@@ -87,6 +87,16 @@ const Contact = (props: { contactdataNumber: string }) => {
                         <div className="max-w-md flex flex-col gap-9 md:gap-16">
                             <div className="flex flex-col gap-5 md:gap-8">
                                 <p className="max-w-2xl text-secondary/70 dark:text-white/70">Get in touch for the best export prices from India to anywhere.</p>
+                                 <div className="flex flex-col gap-3 mt-4">
+                                <a href="mailto:globistixinternational@gmail.com" className="flex items-center gap-2 text-secondary/70 dark:text-white/70 hover:text-primary">
+                                    <span>📧</span>
+                                    <span>info@globistix.in</span>
+                                </a>
+                                <a href="tel:+919876543210" className="flex items-center gap-2 text-secondary/70 dark:text-white/70 hover:text-primary">
+                                    <span>📞</span>
+                                    <span>+91 9652165616</span>
+                                </a>
+                            </div> 
                                 <div>
                                     <ul className="flex flex-col gap-3">
                                         {contactData?.keypoint?.map((value:any, index:any) => {

@@ -41,7 +41,7 @@ function HeroSection() {
                                 </p>
                             </div>
                             <div className="flex flex-col lg:flex-row items-start lg:items-end gap-4">
-                                <h1 className="large-heading">From Indian Farms to Global Markets</h1>
+                                <h1 className="large-heading">From Indian Origins to Global Markets</h1>
                                 <div>
                                     <div className="bg-primary rounded-full p-1.5 pl-8">
                                         <Image src={"/images/Icon/arrow-icon.svg"} alt="icon" height={52} width={52} />

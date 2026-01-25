@@ -9,7 +9,7 @@ export default function Page() {
     return (
         <main>
             <Herobanner
-                bannerimage="/images/contact/banner/contact-banner.png"
+                bannerimage="/images/blog/banner/blog_banner.jpg"
                 heading="Contact"
                 desc="Ready to <span>start something</span> great? Reach out  we’d love to hear from you." />
             <Contact contactdataNumber="01"/>
