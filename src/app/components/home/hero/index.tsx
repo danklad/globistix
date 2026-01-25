@@ -25,7 +25,7 @@ function HeroSection() {
                     {/* Content */}
                     <div className="relative z-10 container text-left">
                         <div className="flex flex-col gap-6 Xxl:pb-20 pb-10">
-                            <div className="flex items-start gap-2 md:gap-6">
+                            <div className="flex items-center gap-2 md:gap-6">
                                 <div className="w-11 h-11 flex-shrink-0">
                                     <Image
                                         src={"/images/Icon/primary-leaf.svg"}
@@ -36,11 +36,12 @@ function HeroSection() {
                                     />
                                 </div>
                                 <p className="text-white/70 max-w-md">
-                                 At Globistix, We Connect <span className="text-primary">Indian Produce</span> with Global Demand.
+                                 {/* At Globistix, We Connect <span className="text-primary">Indian Produce</span> with Global Demand. */}
+                                 Coffee • Spices • Agricultural Exports
                                 </p>
                             </div>
                             <div className="flex flex-col lg:flex-row items-start lg:items-end gap-4">
-                                <h1 className="large-heading">Globistix</h1>
+                                <h1 className="large-heading">From Indian Farms to Global Markets</h1>
                                 <div>
                                     <div className="bg-primary rounded-full p-1.5 pl-8">
                                         <Image src={"/images/Icon/arrow-icon.svg"} alt="icon" height={52} width={52} />

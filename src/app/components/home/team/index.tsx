@@ -38,7 +38,7 @@ const Team = (props: { teamdataNumber: string }) => {
               </div>
               <div className="flex flex-col gap-11">
                 <div className="flex flex-col gap-5 ">
-                  <h2 className="max-w-3xl">Meet our team</h2>
+                  <h2 className="max-w-3xl">Meet the team</h2>
                   <p className="max-w-2xl text-secondary/70 dark:text-white/70">
                     {" "}
                     We are a dedicated Indian exports team combining expertise
@@ -63,8 +63,8 @@ const Team = (props: { teamdataNumber: string }) => {
                         alt="image"
                         width={390}
                         height={470}
-                        style={{ width: "100%" }}
-                        className="w-full h-[490px] object-cover"
+                        style={{ width: "80%" }}
+                        className="w-full h-[470px] object-cover"
                       />
                       {/* The below part is for social icons on hover, currently commented out */}
                       {/* <div className="absolute hidden bg-secondary/40 bottom-0 left-0 w-full h-full group-hover:flex items-end justify-end p-8">
