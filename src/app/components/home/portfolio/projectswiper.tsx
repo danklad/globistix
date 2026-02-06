@@ -46,7 +46,7 @@ const Projectswiper = () => {
                     <SwiperSlide key={index}>
                         <div className="relative group flex flex-col gap-3 lg:gap-5">
                             <div className="relative">
-                                <div className="w-auto h-80">
+                                <Link href={`/projects/${value.slug}`} className="w-auto h-80 block md:pointer-events-none">
                                     <Image
                                         src={value.coverImage}
                                         alt={value.title}
@@ -54,7 +54,7 @@ const Projectswiper = () => {
                                         height={350}
                                         style={{ width: "100%", maxWidth: "100%", height: "100%", objectFit: "cover" }}
                                     />
-                                </div>
+                                </Link>
                                 <Link
                                     href={`/projects/${value.slug}`}
                                     className="absolute top-0 left-0 backdrop-blur-xs bg-black/70 w-full h-full hidden group-hover:flex"
